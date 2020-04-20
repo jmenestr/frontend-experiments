@@ -1,0 +1,41 @@
+.animation-wrapper {
+  position: relative;
+}
+
+.button-reset {
+  border: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: content-box;
+}
+
+.button {
+  position: absolute;
+  height: 24px;
+  color:  #c0c0c0;
+  background: #eaeaea;
+  border: 1px solid  #c0c0c0;
+  border-radius: 3px;
+  transition: background-color 150ms ease-in;
+
+  & :hover {
+    background-color: #e4e4e4;
+    transition: background-color 150ms ease-in;
+
+  }
+
+  & :active {
+    background-color: #979797;
+    transition: background-color 150ms ease-in;
+
+  }
+}
+
+.input {
+  position: absolute;
+  height: 24px;
+  padding: 4px 5px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
